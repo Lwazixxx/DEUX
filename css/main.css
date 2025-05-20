@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(0, 170, 133);
+}
+
+div#left {
+  background-color: rgb(0, 221, 255);
+  background-image: url('https://api.dicebear.com/9.x/pixel-art/svg?seed-lwazi');
+  height: 120px;
+  border-radius: 100%;
+  aspect-ratio: 1;
+}
+
+div#right{
+    background-color: rgb(9, 226, 237);
+    font-size:xx-large;
+    text-align: center;
+            padding-top: 40PX;
+}
+
+main{
+    width: 60vw;
+    margin: 100px auto 0 auto;
+    display: grid;
+    grid-template-columns: 90px 600px;
+    gap: 4rem;
+
+}
