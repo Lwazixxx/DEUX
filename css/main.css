@@ -52,7 +52,7 @@ div#bio ol{
 
 }
 
-div#ul .li svg{
+div#ul li svg{
   display: flex;
   list-style: none;
 }
